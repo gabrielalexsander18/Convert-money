@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 body {
@@ -22,10 +25,7 @@ header {
 }
 
 h1 {
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
-    line-height: 18px;
     color: #F4F4F4;
     text-align: center;
     padding-top: 24px;
@@ -36,10 +36,7 @@ main {
 }
 
 label {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 18px;
     color: #777777;   
 }
 
@@ -80,10 +77,8 @@ button {
     width: 100%;
     border: none;
     color: #F4F4F4;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 18px;
     margin-top: 24px;
     margin-bottom: 36px;
 }
@@ -97,11 +92,28 @@ button:active {
 }
 
 section {
-    width: 327px;
-    height: 276px;
-    left: 24px;
-    top: 458px;
     border: 1px solid #1B83E2;
     border-radius: 4px;
 
+}
+
+.currency-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.currency-name { 
+    font-size: 14px; 
+    color: #777777;
+}
+
+.currency-value {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1B83E2;
+}
+
+.arrow-image {
+    margin: 15px auto 13px;
+    display: block;
 }
