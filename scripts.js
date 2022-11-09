@@ -1,9 +1,10 @@
 const button = document.getElementById('convertButton')
 const select = document.getElementById('select-currency')
 
-const dolar = 5.16
-const euro = 5.18
-const bitcoin = 95400.95
+const dolar = 5.17
+const euro = 5.19
+const bitcoin = 90936.59
+
 
 const convertValue = () => {
     const valorReal = document.getElementById('input-real').value
