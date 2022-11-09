@@ -117,3 +117,28 @@ section {
     margin: 15px auto 13px;
     display: block;
 }
+
+@media screen and (max-width: 1366px) {
+
+    .container {
+        margin-top: 5px;
+        height: 708px;
+    }
+
+    main {
+        padding-top: 20px;
+    }
+
+    select {
+        margin-bottom: 15px;
+    }
+    
+    button {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .arrow-image {
+        margin: 10px auto 8px;
+    }
+}
