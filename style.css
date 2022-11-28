@@ -10,25 +10,28 @@
 
 body {
     background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
     width: 375px;
     background-color: #f4f4f4;
-    margin: 0 auto;
-    margin-top: 100px;
 }
 
 header {
     background-color: #1B83E2;
     height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     font-size: 24px;
     color: #F4F4F4;
-    text-align: center;
-    padding-top: 24px;
 }
 
 main {
@@ -94,12 +97,18 @@ button:active {
 section {
     border: 1px solid #1B83E2;
     border-radius: 4px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .currency-container {
-    text-align: center;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
 }
 
 .currency-name { 
@@ -113,32 +122,39 @@ section {
     color: #1B83E2;
 }
 
-.arrow-image {
-    margin: 15px auto 13px;
-    display: block;
-}
-
 @media screen and (max-width: 1366px) {
 
-    .container {
-        margin-top: 5px;
-        height: 708px;
+    header {
+        height: 48px;
+    }
+
+    h1 {
+        font-size: 22px;
     }
 
     main {
-        padding-top: 20px;
+        padding-top: 15px;
     }
 
     select {
         margin-bottom: 15px;
+        height: 40px;
     }
     
+    input {
+        height: 44px;
+    }
+
     button {
         margin-bottom: 20px;
         margin-top: 20px;
+        height: 40px;
     }
 
-    .arrow-image {
-        margin: 10px auto 8px;
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.50px;
     }
 }
