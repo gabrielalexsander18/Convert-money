@@ -38,7 +38,7 @@ const convertValue = async () => {
         currencyValueText.innerHTML = new Intl.NumberFormat('en-US', {
             style: 'currency',
             currency: 'BTC'
-        }).format(valorReal / (bitcoin * 1000));
+        }).format(valorReal / bitcoin);
     }
 }
 
