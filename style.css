@@ -18,11 +18,15 @@ body {
 }
 
 .container_logo {  
-    margin-bottom: 5px;
+    margin-bottom: 35px;
 }
 
 #logo_profile {
     width: 150px;
+}
+
+#logo_profile:hover {
+    rotate: -10deg;
 }
 
 .container {
@@ -63,7 +67,6 @@ label {
 
 select {
     background: #FFFFFF;
-    /* border: 1px solid #BBBBBB; */
     border-radius: 4px;
     height: 48px;
     width: 360px;
@@ -80,7 +83,6 @@ select {
 
 input {
     background: #FFFFFF;
-    /* border: 1px solid #BBBBBB; */
     border-radius: 4px;
     height: 48px;
     display: block;
@@ -148,6 +150,10 @@ section {
 }
 
 @media screen and (max-width: 1366px) {
+
+    .container_logo {  
+        margin-bottom: 5px;
+    }
  
     #logo_profile {
         width: 120px;
